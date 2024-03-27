@@ -14,7 +14,13 @@ function App() {
           <div className="Editor-box">
             <EditorBox />
           </div>
-          
+          <div>
+            <button id='save-button' className='Save-button'>GUARDAR</button>
+          </div>
+
+          <pre className='Output' id='output'>
+
+          </pre>
 
       </header>
     </div>

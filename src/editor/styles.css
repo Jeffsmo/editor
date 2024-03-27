@@ -1,0 +1,20 @@
+.editorjs{
+    width: 70%;
+
+}
+
+#Image-input {
+    width: 500px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4ffca;
+    padding: 0 15px;
+    border-radius: 10px;
+    border: 1px solid rgb(63, 63, 63);
+  }
+  #Image-input:focus-within {
+    border: none;
+  }
+  

@@ -19,3 +19,49 @@
     border-radius: 8px;
     padding: 12px;
 }
+
+.Output{
+    color: #1d1d1d;
+    background-color: #f4ffca;
+}
+
+
+.Save-button {
+    margin: 12px;
+    padding: 15px 25px;
+    border: unset;
+    border-radius: 15px;
+    color: #212121;
+    z-index: 1;
+    background: #e8e8e8;
+    position: relative;
+    font-weight: 1000;
+    font-size: 17px;
+    -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+    transition: all 250ms;
+    overflow: hidden;
+   }
+   
+   .Save-button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 15px;
+    background-color: #eaff96;
+    z-index: -1;
+    -webkit-box-shadow: 4px 8px 19px -3px #eaff96;
+    box-shadow: 4px 8px 19px -3px #eaff96;
+    transition: all 250ms
+   }
+   
+   .Save-button:hover {
+    color: #1d1d1d;
+   }
+   
+   .Save-button:hover::before {
+    width: 100%;
+   }

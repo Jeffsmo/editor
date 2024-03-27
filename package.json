@@ -35,5 +35,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@editorjs/checklist": "^1.6.0",
+    "@editorjs/header": "^2.8.1",
+    "@editorjs/image": "^2.9.0"
   }
 }
