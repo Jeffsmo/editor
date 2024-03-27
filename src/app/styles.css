@@ -1,0 +1,21 @@
+.App{
+    background-color: #1d1d1d;
+    color: #dcff50;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+
+.App-title{
+    font-size: 75px;
+}
+
+.Editor-box{
+    color: #1d1d1d;
+    background-color: #f4ffca;
+    display: flex;
+    width: 80vw;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 12px;
+}
