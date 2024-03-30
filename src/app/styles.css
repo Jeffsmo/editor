@@ -23,6 +23,8 @@
 .Output{
     color: #1d1d1d;
     background-color: #f4ffca;
+    max-width: 600px;
+    overflow-y: scroll;
 }
 
 

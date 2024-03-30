@@ -1,8 +1,9 @@
-import React, { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect, useState  } from "react";
 import EditorJS from "@editorjs/editorjs";
-import {SimpleImage} from '../images/ImageManager'
-import Header from '@editorjs/header'
-
+import SimpleImage from 'editorjs-simple-image-updated';
+import Header from '@editorjs/header';
+//import Image from '@editorjs/image';
+//import SimpleImage from '@editorjs/simple-image';
 
 import './styles.css'
 
@@ -11,9 +12,9 @@ function EditorBox() {
     time: new Date().getTime(),
     blocks: [
       {
-        type: "header",
+        type: "Header",
         data: {
-          text: "This is my awesome editor!",
+          text: "Escribe aquí un nuevo texto!",
           level: 1
         }
       }
